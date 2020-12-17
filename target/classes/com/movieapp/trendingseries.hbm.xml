@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.movieapp">
+    <class name="TrendingSeriesInfo" table="trendingseries">
+        <id name="seriesid" type="int" column="seriesid">
+            <generator class="native"/>
+        </id>
+        <property name="seriestitle" type="string" column="seriestitle"/>
+        <property name="seriesyear" type="int" column="seriesyear"/>
+        <property name="seriesclass" type="string" column="seriesclass"/>
+        <property name="seriesimage" type="string" column="seriesimage"/>
+        <property name="seriessynopsis" type="string" column="seriessynopsis"/>
+         
+    </class>
+</hibernate-mapping>

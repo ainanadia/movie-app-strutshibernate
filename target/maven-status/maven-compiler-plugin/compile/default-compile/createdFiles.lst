@@ -1,0 +1,8 @@
+com\movieapp\HibernateUtil.class
+com\movieapp\TrendingMoviesInfo.class
+com\movieapp\PromoInfo.class
+com\movieapp\TrendingMoviesManager.class
+com\movieapp\TrendingSeriesManager.class
+com\movieapp\PromoManager.class
+com\movieapp\GetByIDManager.class
+com\movieapp\TrendingSeriesInfo.class

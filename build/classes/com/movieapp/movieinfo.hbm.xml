@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.movieapp">
+    <class name="MovieInfo" table="movieinfo">
+        <id name="movieid" type="string" column="movieid">
+            <generator class="native"/>
+        </id>
+        <property name="movietitle" type="string" column="movietitle"/>
+        <property name="movieyear" type="int" column="movieyear"/>
+        <property name="movieclass" type="string" column="movieclass"/>
+        <property name="movieimage" type="string" column="movieimage"/>
+        <property name="moviesynopsis" type="string" column="moviesynopsis"/>
+         
+    </class>
+</hibernate-mapping>
